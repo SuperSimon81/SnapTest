@@ -18,55 +18,37 @@ public class TestCollider : MonoBehaviour
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit old_hit;
         RaycastHit hit;
+        
         if(Physics.Raycast(ray,out hit))
             {
                 //Debug.Log(hit.transform.tag);
                 if (hit.transform.tag == "BoxCollider")
                 {
-                    if(!isInstantiated)
+                    if(child.Equals(null) )
                     {
+                   
                     isInstantiated=true;
                     //hit.collider.enabled = false;
+                    
                     child = Instantiate(prefabOutline,hit.transform.parent.position+hit.transform.localPosition*2,hit.transform.rotation);
                    
                    //Debug.Log("hit " + isInstantiated);
                    }
-                }
-                else
-                {
-                     if(isInstantiated && child.transform==hit.transform)
-                    {
-                        
-                        
-                        //child.transform.Rotate(new Vector3(Input.mouseScrollDelta.y*child.transform.position.x,Input.mouseScrollDelta.y*child.transform.position.y,Input.mouseScrollDelta.y*child.transform.position.z));
-                        if (Input.GetKeyUp(KeyCode.Mouse0))
-                        {
-                            Instantiate(prefab,hit.transform.position,hit.transform.rotation);
-                            Destroy(child);
-                      
-                        
-                  
-                        }
-                       
-                    }
-                    //if(isInstantiated && child.transform!=hit.transform)
-                    //{
-                    //    Destroy(child);
-                    //    isInstantiated=false;
-                    //}
-                   
-                }
-               
+                }       
+
+
             }
-            else
+            
+           else
             {
              if(isInstantiated)
                   {
                        Destroy(child);
                     isInstantiated=false;
                    }
-                   }
+             }
     }
 
 
