@@ -27,12 +27,12 @@ public class TestCollider : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         RaycastHit hit;
-        //Debug.Log(LayerMask.NameToLayer("BigSnap"));
+        
         
         //Hit only the current prefab layer using layermask
-        if (Physics.Raycast(ray, out hit,1 << prefab.layer))
+        if (Physics.Raycast(ray, out hit,100,1 << prefab.layer))
         {
-            //Debug.Log(prefab.layer);
+            
             //did we hit a boxcollider
             if (hit.transform.tag == "BoxCollider")
             {
@@ -47,7 +47,7 @@ public class TestCollider : MonoBehaviour
                     //we make a new one.
                     preview = Instantiate(prefabOutline, hit.transform.parent.position + hit.transform.localPosition * 2, hit.transform.rotation);
                     old_hit = hit;
-                    Debug.Log("remaking a preview");
+                    //Debug.Log("remaking a preview");
                 }
                 else
                 {
@@ -77,10 +77,5 @@ public class TestCollider : MonoBehaviour
     {
             Destroy(preview);
             old_hit = new RaycastHit();        
-    }
-
-
-    private void OnTriggerEnter(Collider other) {
-        Debug.Log("dsa");
     }
 }
