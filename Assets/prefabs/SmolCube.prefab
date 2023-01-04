@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4573785252809709716}
   - component: {fileID: 3878621218021429163}
   - component: {fileID: 6571475232562790946}
-  m_Layer: 7
-  m_Name: Cube
+  m_Layer: 6
+  m_Name: SmolCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4117236900670596211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.333, y: 0.333, z: 0.333}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1832214758164003472}
   - component: {fileID: 533856444138732871}
   - component: {fileID: -6294660619344499250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563568072502152450}
   - component: {fileID: 5809722373978088719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: front
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7797507950311891646}
   - component: {fileID: 5971391694099031600}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: back
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116874436685344640}
   - component: {fileID: 8682759275486596113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bottom
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2839076808599614607}
   - component: {fileID: 5441075710652432293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: right
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8898407127332060943}
   - component: {fileID: 1967986873570811934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: top
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6108877187690227681}
   - component: {fileID: 5125483822806443828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: left
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}

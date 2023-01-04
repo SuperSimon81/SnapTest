@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6482812329769850003}
   m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 2832948949683425693}
   m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 6699518498283663983}
   m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,9 +145,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2398707228606946493}
   - component: {fileID: 4696127509701917292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 4986545978439257821}
   m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 7439186344109737082}
   m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 1977761829598430678}
   m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 7157336692525092157}
   m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 1592872805069857557}
   m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 8569326030481157002}
   m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 2626654974235498754}
   m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -505,9 +505,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1594191972455344715}
   - component: {fileID: 104231032508742741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 1832214758164003472}
   - component: {fileID: 533856444138732871}
   - component: {fileID: -6294660619344499250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Box_w_smol_snaps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +595,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766236004178195339}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -653,9 +653,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1306065457484407657}
   - component: {fileID: 5893335714140644834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 4634673160094185308}
   m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -743,9 +743,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2563642618598375949}
   - component: {fileID: 5391071919202635699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 6116402767909629621}
   m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 6093734520932614812}
   m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -880,7 +880,7 @@ GameObject:
   - component: {fileID: 230637359825055662}
   m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -925,7 +925,7 @@ GameObject:
   - component: {fileID: 5412933576902914697}
   m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -968,9 +968,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8101859557015316908}
   - component: {fileID: 4707769160216053948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 814759765659572944}
   m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 7786478677062331418}
   m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,9 +1103,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3546871221013025273}
   - component: {fileID: 2729754308771318069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1150,7 +1150,7 @@ GameObject:
   - component: {fileID: 1131090468251143122}
   m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 3048477255730060885}
   m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 4697045488482984206}
   m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1339,7 +1339,7 @@ GameObject:
   - component: {fileID: 3149984493501951990}
   m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 6996769803140216460}
   m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 5667720163727104962}
   m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1474,7 +1474,7 @@ GameObject:
   - component: {fileID: 3364280452072421768}
   m_Layer: 6
   m_Name: (9)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1519,7 +1519,7 @@ GameObject:
   - component: {fileID: 8973648703658975072}
   m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1564,7 +1564,7 @@ GameObject:
   - component: {fileID: 5854837613863583514}
   m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1609,7 +1609,7 @@ GameObject:
   - component: {fileID: 8033850364936493687}
   m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1652,9 +1652,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6985825971332769290}
   - component: {fileID: 8484478224383108741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1699,7 +1699,7 @@ GameObject:
   - component: {fileID: 2033122817409494046}
   m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 4770521829855694115}
   m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1789,7 +1789,7 @@ GameObject:
   - component: {fileID: 4203841061614792952}
   m_Layer: 6
   m_Name: (1)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1834,7 +1834,7 @@ GameObject:
   - component: {fileID: 6377008258536786757}
   m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1879,7 +1879,7 @@ GameObject:
   - component: {fileID: 8183166404930381302}
   m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1978,7 +1978,7 @@ GameObject:
   - component: {fileID: 2642590334000587575}
   m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 2806400363679376957}
   m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2068,7 +2068,7 @@ GameObject:
   - component: {fileID: 4474694956162883583}
   m_Layer: 6
   m_Name: (3)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 6895630204408245316}
   m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2212,7 +2212,7 @@ GameObject:
   - component: {fileID: 6102979271595832661}
   m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2257,7 +2257,7 @@ GameObject:
   - component: {fileID: 4026753586722330014}
   m_Layer: 6
   m_Name: (7)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2302,7 +2302,7 @@ GameObject:
   - component: {fileID: 3584923443097403589}
   m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2460,7 +2460,7 @@ GameObject:
   - component: {fileID: 3274313626938452410}
   m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2505,7 +2505,7 @@ GameObject:
   - component: {fileID: 3272677032172647130}
   m_Layer: 6
   m_Name: (4)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 8336974607720486811}
   m_Layer: 6
   m_Name: (8)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2593,9 +2593,9 @@ GameObject:
   m_Component:
   - component: {fileID: 516100501110154577}
   - component: {fileID: 2480767023204556885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2640,7 +2640,7 @@ GameObject:
   - component: {fileID: 5242640210989470190}
   m_Layer: 6
   m_Name: (6)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2683,9 +2683,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5146792422177669718}
   - component: {fileID: 7312956669375390229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: (5)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2784,7 +2784,7 @@ GameObject:
   - component: {fileID: 2151239195819315952}
   m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2829,7 +2829,7 @@ GameObject:
   - component: {fileID: 4338220738860212767}
   m_Layer: 6
   m_Name: (2)
-  m_TagString: Untagged
+  m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

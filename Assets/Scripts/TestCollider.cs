@@ -27,8 +27,12 @@ public class TestCollider : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        //Debug.Log(LayerMask.NameToLayer("BigSnap"));
+        
+        //Hit only the current prefab layer using layermask
+        if (Physics.Raycast(ray, out hit,1 << prefab.layer))
         {
+            //Debug.Log(prefab.layer);
             //did we hit a boxcollider
             if (hit.transform.tag == "BoxCollider")
             {
