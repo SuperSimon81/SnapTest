@@ -27,7 +27,7 @@ public class TestCollider : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
         RaycastHit hit;
-        if(Physics.Raycast(ray,out hit))
+        if (Physics.Raycast(ray, out hit))
         {
             //did we hit a boxcollider
             if (hit.transform.tag == "BoxCollider")
@@ -38,7 +38,7 @@ public class TestCollider : MonoBehaviour
                     //if there was a previous preview we destroy it,
                     if (!preview.Equals(null))
                     {
-                        Destroy(preview);
+                        removePreviewAndHit();
                     }
                     //we make a new one.
                     preview = Instantiate(prefabOutline, hit.transform.parent.position + hit.transform.localPosition * 2, hit.transform.rotation);
@@ -48,21 +48,31 @@ public class TestCollider : MonoBehaviour
                 else
                 {
                     if (Input.GetKeyUp(KeyCode.Mouse0))
-                    {             
-                        
-                       Instantiate(prefab, preview.transform.position, preview.transform.rotation);
-                       Destroy(preview);
-                        old_hit = new RaycastHit();                        
+                    {
+
+                        Instantiate(prefab, preview.transform.position, preview.transform.rotation);
+                        Destroy(preview);
+                        old_hit = new RaycastHit();
                     }
                 }
             }
             else
             {
-                Destroy(preview);
-                old_hit = new RaycastHit();
-            }            
-        }     
+                removePreviewAndHit();
+            }
+        }
+        else
+        {
+            removePreviewAndHit();
+        }
+        
        
+    }
+
+    private void removePreviewAndHit()
+    {
+            Destroy(preview);
+            old_hit = new RaycastHit();        
     }
 
 
