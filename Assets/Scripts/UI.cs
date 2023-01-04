@@ -5,9 +5,9 @@ using UnityEngine.EventSystems;
 public class UI : MonoBehaviour
 {   
     [SerializeField]
-    GameObject[] objs;
-    
-    public GameObject script;
+    GameObject[] prefabs;
+    GameObject[] outline_prefabs;
+    public TestCollider test_collider;
     private Canvas CanvasObject; // Assign in inspector
  
      void Start()
@@ -26,8 +26,11 @@ public class UI : MonoBehaviour
 
     public void Slot()
     {
-        string name = EventSystem.current.currentSelectedGameObject.name;
-    Debug.Log(name);
+    string name = EventSystem.current.currentSelectedGameObject.name;
+    //script.prefab = prefabs[name];
+    //script.prefabOutline = outline_prefabs[name];
+    Debug.Log(test_collider.prefab.name);
+    
     }
   
 }
