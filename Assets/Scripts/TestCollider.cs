@@ -45,7 +45,7 @@ public class TestCollider : MonoBehaviour
                         removePreviewAndHit();
                     }
                     //we make a new one.
-                    preview = Instantiate(prefabOutline, hit.transform.parent.position + hit.transform.localPosition * 2, hit.transform.rotation);
+                    preview = Instantiate(prefabOutline, hit.transform.parent.position, hit.transform.rotation);
                     old_hit = hit;
                     //Debug.Log("remaking a preview");
                 }
