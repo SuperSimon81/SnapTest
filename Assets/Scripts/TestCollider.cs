@@ -7,12 +7,16 @@ public class TestCollider : MonoBehaviour
     public bool isenabled = false;
     public GameObject prefab; 
     public GameObject prefabOutline;
+    //public Material outlineMaterial;
     public bool isInstantiated = false;
     public GameObject preview;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Below is a failed attempt at making outline previews automatically
+       /* prefabOutline = GameObject.Instantiate(prefab);
+        prefabOutline.GetComponent<MeshRenderer> ().material = outlineMaterial;
+        prefabOutline.GetComponent<Collider>().enabled = false;*/
     }
 
     RaycastHit old_hit = new RaycastHit();
@@ -45,7 +49,10 @@ public class TestCollider : MonoBehaviour
                         removePreviewAndHit();
                     }
                     //we make a new one.
+                    
                     preview = Instantiate(prefabOutline, hit.transform.parent.position, hit.transform.rotation);
+                    //preview.GetComponent<MeshRenderer> ().material = outlineMaterial;
+                    
                     old_hit = hit;
                     //Debug.Log("remaking a preview");
                 }
